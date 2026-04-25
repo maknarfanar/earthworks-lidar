@@ -4,6 +4,7 @@ This repository is for applying AIML techniques on lidar imaging of Ohio's Hopew
 # data source
 Ohio Geographically Referenced Information Program
 https://gis1.oit.ohio.gov/geodatadownload/
+A list of tiles used in this study are in this repo under the tiles_and_weights folder
 
 # Geographic Focus
 UNECO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
