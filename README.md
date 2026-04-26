@@ -32,6 +32,6 @@ Each notebook can run independently.
 - 01_cae_hpf3.ipynb — Sigmoid CAE with high-pass filter
 
 ## Notes:
-Author is Dennis Guhl, Graduate Student for a Masters in Data Science through the Computer Science Department of Wright State University
+Author is Dennis Guhl, Graduate Student, Masters in Data Science, Wright State University
 
 This repo will be accessible by the public until Memorial Day 2026. If you have any comments beyond the requirements for the class then email me at guhl.2@wright.edu.
