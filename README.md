@@ -31,3 +31,9 @@ Each notebook can run independently.
 - 01_cae_hpf2.ipynb — TanH CAE with high-pass filter
 - 01_cae_hpf3.ipynb — Sigmoid CAE with high-pass filter
 
+## Notes:
+Author is Dennis Guhl, Graduate Student for a MAsters in Data Science.
+
+CRISP-DM is not mentioned in the paper but the approach is echoing a CRISP-DM approach in problem solution. 
+
+This repo will be accessible by the public until Memorial Day 2026. IF you have any comments beyond the requirements for the class then email me at guhl.2@wright.edu.
