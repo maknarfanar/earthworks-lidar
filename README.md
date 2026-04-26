@@ -34,6 +34,6 @@ Each notebook can run independently.
 ## Notes:
 Author is Dennis Guhl, Graduate Student for a MAsters in Data Science.
 
-CRISP-DM is not mentioned in the paper but the approach is echoing a CRISP-DM approach in problem solution. 
+Though not mentioned explicitly in the paper, the approach taken for the paper is echoing a CRISP-DM approach in problem solution while ising an IEEE template.
 
 This repo will be accessible by the public until Memorial Day 2026. IF you have any comments beyond the requirements for the class then email me at guhl.2@wright.edu.
