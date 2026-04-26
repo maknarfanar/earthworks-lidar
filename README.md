@@ -1,7 +1,7 @@
-# Hopewell Earthworks LiDAR - CAE Anomaly Detection
+# Hopewell Earthworks LiDAR - CAE Anomaly Detection: Anomaly is All yoou Need
 This repository is for applying ML techniques on LiDAR imaging of Ohio's Hopewell earthworks. This effort is being written in a Python 3.11.9 environment.
 
-A Convolutional Autoencoder is trained on LiDAR DEM tiles of Ohio terrain. Then a test dataset of a balance of normal terrain tiles and tiles with Hopewell earthworks is evaluated to detect Hopewell earthworks as anomalies from the reconstruction error. 
+A bespoke Convolutional Autoencoder was trained on LiDAR DEM tiles of Ohio terrain. Then a test dataset of a balance of normal terrain tiles and tiles with Hopewell earthworks is evaluated to detect Hopewell earthworks as anomalies from the reconstruction error.  An ablation study with six variants of the model was conducted to evaluate model response to the data. Please refer to the paper for more information.
 
 ## Requirements
 - Python 3.11 or equivalent
@@ -14,6 +14,8 @@ Ohio Geographically Referenced Information Program
 https://gis1.oit.ohio.gov/geodatadownload/
 
 A list of tiles used in this study are in this repo under the tiles_and_weights folder. To acquire the data one needs to access the site and look for the tile IDs from the tile_and_weights folder. This direct link to the DEM files by county may be useful for gathering these: https://gis1.oit.ohio.gov/ZIPARCHIVES_III/ELEVATION/3DEP/DEM/
+
+Weights for the baseline model and the baseline model+HPF are included in the tiles_and_weights folder. See the paper for more information. The Jupyter Notebooks contain sections that can be uncommented to load the weights. Make certain you assign the CAE architecture to "model" before loading weights.
 
 ## Geographic Focus
 - Ohio 
