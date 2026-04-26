@@ -12,14 +12,14 @@ A Convolutional Autoencoder is trained on LiDAR DEM tiles of Ohio terrain. Then 
 ## Data Source
 Ohio Geographically Referenced Information Program
 https://gis1.oit.ohio.gov/geodatadownload/
-A list of tiles used in this study are in this repo under the tiles_and_weights folder
+
+A list of tiles used in this study are in this repo under the tiles_and_weights folder. To acquire the data one needs to access the site and look for the tile IDs from the tile_and_weights folder. This direct link to the DEM files by county may be useful for gathering these: https://gis1.oit.ohio.gov/ZIPARCHIVES_III/ELEVATION/3DEP/DEM/
 
 ## Geographic Focus
 - Ohio 
 - UNESCO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
 
 ## Notebooks
-
 Each notebook runs independently.
 
 - 01_cae_v1.ipynb — Baseline CAE model (no output activation)
