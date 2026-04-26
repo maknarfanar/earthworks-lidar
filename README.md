@@ -17,7 +17,9 @@ A list of tiles used in this study are in this repo under the tiles_and_weights 
 - UNECO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
 
 # Notebooks
-####Each notebook runs independently.
+
+Each notebook runs independently.
+
 - 01_cae_v1.ipynb — Baseline CAE model (no output activation)
 - 01_cae_v2.ipynb — CAE with TanH output activation
 - 01_cae_v3.ipynb — CAE with Sigmoid output activation
