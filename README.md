@@ -1,4 +1,4 @@
-# Hopewell Earthworks LiDAR - CAE Anomaly Detection: Anomaly is All yoou Need
+# Hopewell Earthworks LiDAR - CAE Anomaly Detection: Anomaly is All you Need
 This repository is for applying ML techniques on LiDAR imaging of Ohio's Hopewell earthworks. This effort is being written in a Python 3.11.9 environment.
 
 A bespoke Convolutional Autoencoder was trained on LiDAR DEM tiles of Ohio terrain. Then a test dataset of a balance of normal terrain tiles and tiles with Hopewell earthworks is evaluated to detect Hopewell earthworks as anomalies from the reconstruction error.  An ablation study with six variants of the model was conducted to evaluate model response to the data. Please refer to the paper for more information.
