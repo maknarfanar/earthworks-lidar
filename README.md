@@ -22,7 +22,7 @@ Weights for the baseline model and the baseline model+HPF are included in the ti
 - UNESCO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
 
 ## Notebooks
-Each notebook runs independently.
+Each notebook can run independently.
 
 - 01_cae_v1.ipynb — Baseline CAE model (no output activation)
 - 01_cae_v2.ipynb — CAE with TanH output activation
