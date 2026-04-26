@@ -7,16 +7,16 @@ This repository is for applying ML techniques on LiDAR imaging of Ohio's Hopewel
 - Install dependencies from requirements.txt: pip install -r requirements.txt
 - All models were developed and run on a CPU. No GPU required.
 
-# Data Source
+## Data Source
 Ohio Geographically Referenced Information Program
 https://gis1.oit.ohio.gov/geodatadownload/
 A list of tiles used in this study are in this repo under the tiles_and_weights folder
 
 #### Geographic Focus
 - Ohio 
-- UNECO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
+- UNESCO World Heritage List sites for Hopewell Ceremonial Earthworks: https://whc.unesco.org/en/list/1689/maps/
 
-# Notebooks
+## Notebooks
 
 Each notebook runs independently.
 
